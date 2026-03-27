@@ -732,7 +732,10 @@ public class GoogleSearchView extends Div {
 
         Span titleText = new Span(result.title);
         Span span  = new Span("icon3");
+<<<<<<< Updated upstream
         //Span span2 = new Span("icon4");
+=======
+>>>>>>> Stashed changes
         Icon externalLinkIcon = FontAwesome.Solid.APPLE_WHOLE.create();
         externalLinkIcon.getStyle()
             .set("font-size", "14px")
