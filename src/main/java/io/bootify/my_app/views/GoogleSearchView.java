@@ -742,7 +742,7 @@ public class GoogleSearchView extends Div {
             .set("opacity", "0.8");
 
         Span   aSpan = new Span("icon12");
-
+        aSpan = new Span("icon13");
         title.add(titleText, externalLinkIcon);
         title.getStyle()
                 .set("font-size", "20px")
