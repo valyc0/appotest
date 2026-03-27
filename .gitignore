@@ -1,0 +1,16 @@
+target/
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS/editor temporary files
+.DS_Store
+*.swp
+*.swo
+
+# Runtime artifacts
+*.log
+
+# Local development overrides
+src/main/resources/application-local.yml
