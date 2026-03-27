@@ -731,6 +731,7 @@ public class GoogleSearchView extends Div {
         title.getElement().setAttribute("rel", "noopener noreferrer");
 
         Span titleText = new Span(result.title);
+        Span aSpan = new Span(" mi trovo in span main");
         Icon externalLinkIcon = FontAwesome.Solid.ASSISTIVE_LISTENING_SYSTEMS.create();
         externalLinkIcon.getStyle()
             .set("font-size", "14px")
