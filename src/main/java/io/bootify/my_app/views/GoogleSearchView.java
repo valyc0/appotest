@@ -731,6 +731,8 @@ public class GoogleSearchView extends Div {
         title.getElement().setAttribute("rel", "noopener noreferrer");
 
         Span titleText = new Span(result.title);
+        Span span  = new Span("icon3");
+        //Span span2 = new Span("icon4");
         Icon externalLinkIcon = FontAwesome.Solid.APPLE_WHOLE.create();
         externalLinkIcon.getStyle()
             .set("font-size", "14px")
